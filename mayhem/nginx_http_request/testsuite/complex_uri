@@ -1,0 +1,5 @@
+GET /a%20b/../c//d/./e?x=1 HTTP/1.0
+Host: h
+X-Under_score: v
+Cookie: a=b; c=d
+

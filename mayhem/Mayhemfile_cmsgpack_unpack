@@ -1,0 +1,9 @@
+project: savantenvs/f-stack
+target: cmsgpack_unpack
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/cmsgpack_unpack/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_cmsgpack_unpack
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/cmsgpack_unpack/cmsgpack_unpack.dict

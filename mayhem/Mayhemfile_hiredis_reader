@@ -1,0 +1,9 @@
+project: savantenvs/f-stack
+target: hiredis_reader
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/hiredis_reader/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_hiredis_reader
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/hiredis_reader/hiredis_reader.dict

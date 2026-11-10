@@ -1,0 +1,8 @@
+project: savantenvs/f-stack
+target: listpack
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/listpack/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_listpack
+    libfuzzer: true

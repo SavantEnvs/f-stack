@@ -1,0 +1,14 @@
+nginx.request_line=0
+nginx.method=2 version=1001
+nginx.uri=/c
+nginx.args=x=1
+nginx.header=Host:example.com
+nginx.header=X-A:b c
+nginx.header_end=1
+nginx.chunk1=0 size=5
+nginx.chunk2=0
+nginx.url=0 port=8080 host=10.0.0.1
+nginx.inet_addr=1020304
+nginx.http_time=784111777
+nginx.size=10240
+nginx.time=5400

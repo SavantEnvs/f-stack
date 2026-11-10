@@ -1,0 +1,5 @@
+GET http://user@example.com:8080/path HTTP/1.1
+Host: example.com
+X-Folded: a
+ b
+

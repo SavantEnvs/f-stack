@@ -1,0 +1,9 @@
+project: savantenvs/f-stack
+target: lua_parse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/lua_parse/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_lua_parse
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/lua_parse/lua_parse.dict

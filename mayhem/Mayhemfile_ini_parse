@@ -1,0 +1,9 @@
+project: savantenvs/f-stack
+target: ini_parse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ini_parse/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ini_parse
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/ini_parse/ini_parse.dict

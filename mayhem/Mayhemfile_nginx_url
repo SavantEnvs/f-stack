@@ -1,0 +1,9 @@
+project: savantenvs/f-stack
+target: nginx_url
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/nginx_url/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_nginx_url
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/nginx_url/nginx_url.dict

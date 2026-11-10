@@ -1,0 +1,6 @@
+# Build outputs of a previous mayhem/build.sh run; the image build recreates them. Everything else, .git
+# included, stays in the context.
+mayhem/build/
+/fuzz_*
+/kat_*
+/ctrf-report.json

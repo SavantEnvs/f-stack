@@ -1,0 +1,10 @@
+hiredis.reply0.type=2
+hiredis.reply0.elements=3
+hiredis.reply0.e0=foo
+hiredis.reply0.e1=42
+hiredis.reply0.e2=ERR bad
+hiredis.reply1.type=5
+hiredis.reply1.str=OK
+hiredis.reply2.type=4
+hiredis.count=3
+hiredis.protocol_error=1

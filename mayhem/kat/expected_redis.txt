@@ -1,0 +1,12 @@
+ziplist.len=3
+ziplist.valid=1
+ziplist.e2=12345
+ziplist.e1=hello
+ziplist.corrupt_valid=0
+listpack.len=2
+listpack.valid=1
+listpack.e1=str:-77
+intset.len=3 dup_added=0
+intset.find70000=1 find9=0
+intset.first=-3 bytes=20
+intset.valid=1

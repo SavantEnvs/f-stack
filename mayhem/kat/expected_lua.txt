@@ -1,0 +1,10 @@
+lua.arith=42
+lua.format=5-x
+lua.cjson_enc=[1,2,3]
+lua.cjson_dec=7
+lua.struct_pack=1002
+lua.bit_band=15
+lua.mp_len=4
+lua.mp_round=hi
+lua.sort=1,3,5,9
+lua.gsub=hell0 w0rld

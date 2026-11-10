@@ -1,0 +1,8 @@
+project: savantenvs/f-stack
+target: ziplist
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ziplist/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ziplist
+    libfuzzer: true
